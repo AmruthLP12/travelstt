@@ -1,35 +1,33 @@
-"use client"
+"use client";
 
-import { useEffect } from "react"
+import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function AOSInit() {
+  const pathname = usePathname();
+
   useEffect(() => {
-    const initAOS = async () => {
-      const elements = document.querySelectorAll("[data-aos]")
+    const elements = document.querySelectorAll("[data-aos]");
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("aos-animate")
-            } else {
-              entry.target.classList.remove("aos-animate")
-            }
-          })
-        },
-        {
-          threshold: 0.1,
-        },
-      )
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("aos-animate");
+          } else {
+            entry.target.classList.remove("aos-animate");
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+      }
+    );
 
-      elements.forEach((element) => {
-        observer.observe(element)
-      })
-    }
+    elements.forEach((element) => observer.observe(element));
 
-    initAOS()
-  }, [])
+    return () => observer.disconnect();
+  }, [pathname]); // 👈 Run this effect every time the route changes
 
-  return null
+  return null;
 }
-
