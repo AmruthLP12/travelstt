@@ -124,10 +124,10 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <div className="p-2 rounded-lg">
                 <Image
-                  src="/ttlogo1.png"
+                  src="/images/ttLogo.png"
                   alt="TT Travels Logo"
-                  width={40}
-                  height={40}
+                  width={60}
+                  height={60}
                   className="rounded-md"
                 />
               </div>

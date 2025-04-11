@@ -44,7 +44,7 @@ export default function AboutUsPage() {
             </div>
             <div className="relative h-96 rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/office.jpg"
                 alt="TT Travels Office"
                 fill
                 className="object-cover"
@@ -170,7 +170,7 @@ export default function AboutUsPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Rajesh Kumar", role: "Founder & CEO", image: "/placeholder.svg?height=300&width=300" },
+              { name: "Siva Sankar", role: "Founder & CEO", image: "/images/siva.enc" },
               { name: "Priya Sharma", role: "Operations Manager", image: "/placeholder.svg?height=300&width=300" },
               { name: "Venkat Reddy", role: "Fleet Manager", image: "/placeholder.svg?height=300&width=300" },
             ].map((member, index) => (
