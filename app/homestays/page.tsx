@@ -2,6 +2,19 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import HomestayCard from "@/components/homestay-card"
 import { homestays } from "@/data/homestays"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Homestays & Accommodations",
+  description:
+    "Comfortable and affordable accommodation options for your stay in Tirupati. Book homestays, service apartments, and villas for your pilgrimage or vacation.",
+  keywords: ["Tirupati homestays", "Tirupati accommodation", "budget stay Tirupati", "service apartments Tirupati"],
+  openGraph: {
+    title: "Homestays & Accommodations | Tirumala Tirupathi Travels",
+    description:
+      "Comfortable and affordable accommodation options for your stay in Tirupati. Book homestays, service apartments, and villas for your pilgrimage or vacation.",
+  },
+}
 
 export default function HomestaysPage() {
   return (
