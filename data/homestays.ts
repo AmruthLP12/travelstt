@@ -14,7 +14,7 @@ export const homestays: Homestay[] = [
   {
     id: "redstone-villas",
     name: "Redstone villas and suites",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/redstone.jpg",
     capacity: "Fits 4 Adults",
     meals: "No meals included",
     refundPolicy: "Non-Refundable",
@@ -25,7 +25,7 @@ export const homestays: Homestay[] = [
   {
     id: "sree-service",
     name: "Sree Service Apartments",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/home3.webp",
     capacity: "Fits 2 Adults",
     meals: "No meals included",
     refundPolicy: "Non-Refundable",
@@ -36,7 +36,7 @@ export const homestays: Homestay[] = [
   {
     id: "ushus-homestay",
     name: "Ushus Homestay",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/keralastay.jpeg",
     capacity: "Fits 4 Adults",
     meals: "No meals included",
     refundPolicy: "Non-Refundable",
@@ -47,7 +47,7 @@ export const homestays: Homestay[] = [
   {
     id: "mahas-gateway",
     name: "MAHAS Gateway Homestay",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/home2.avif",
     capacity: "Fits 3 Adults",
     meals: "Breakfast included",
     refundPolicy: "Free cancellation",
@@ -58,7 +58,7 @@ export const homestays: Homestay[] = [
   {
     id: "green-valley",
     name: "Green Valley Homestay",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/home1.webp",
     capacity: "Fits 4 Adults",
     meals: "No meals included",
     refundPolicy: "Non-Refundable",
@@ -69,7 +69,7 @@ export const homestays: Homestay[] = [
   {
     id: "wooden-cottage",
     name: "Wooden Cottage Villa",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/images/homestay1.jpg",
     capacity: "Fits 4 Adults",
     meals: "No meals included",
     refundPolicy: "Non-Refundable",

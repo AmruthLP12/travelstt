@@ -122,9 +122,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <div className="bg-gradient-to-r from-indigo-600 to-purple-700 p-2 rounded-lg">
+              <div className="p-2 rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/ttlogo1.png"
                   alt="TT Travels Logo"
                   width={40}
                   height={40}

@@ -27,9 +27,9 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-900 shadow-md">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl flex h-20 items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-r from-indigo-600 to-purple-700 p-2 rounded-lg">
+          <div className="p-2 rounded-lg">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/ttlogo1.png"
               alt="TT Travels Logo"
               width={40}
               height={40}

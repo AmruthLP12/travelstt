@@ -6,15 +6,15 @@ import { cn } from "@/lib/utils"
 
 const images = [
   {
-    src: "/placeholder.svg?height=800&width=1600",
+    src: "/images/vehicles/swift.webp",
     alt: "Swift Dzire - Comfortable Sedan for Family Trips",
   },
   {
-    src: "/placeholder.svg?height=800&width=1600",
+    src: "/images/vehicles/toyota.jpg",
     alt: "Toyota Innova - Spacious SUV for Group Travel",
   },
   {
-    src: "/placeholder.svg?height=800&width=1600",
+    src: "/images/vehicles/urbania.webp",
     alt: "Force Urbania - Luxury Bus for Large Groups",
   },
 ]
