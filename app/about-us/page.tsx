@@ -3,6 +3,24 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Users, Award, Star } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about Tirumala Tirupathi Travels, our story, values, and why we're the preferred travel partner for pilgrims, tourists, and corporate clients in Tirupati.",
+  keywords: [
+    "Tirupati travel company",
+    "TT Travels history",
+    "about Tirumala Tirupathi Travels",
+    "Tirupati car rental company",
+  ],
+  openGraph: {
+    title: "About Us | Tirumala Tirupathi Travels",
+    description:
+      "Learn about Tirumala Tirupathi Travels, our story, values, and why we're the preferred travel partner for pilgrims, tourists, and corporate clients in Tirupati.",
+  },
+}
 
 export default function AboutUsPage() {
   return (
