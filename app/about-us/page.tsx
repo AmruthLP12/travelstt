@@ -164,7 +164,6 @@ export default function AboutUsPage() {
             </div>
           </div>
         </section>
-
         {/* Our Team Section */}
         <section className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
