@@ -5,6 +5,19 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { vehicles } from "@/data/vehicles"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Our Vehicle Fleet",
+  description:
+    "Explore our premium fleet of vehicles including Swift Dzire, Toyota Innova, and luxury buses for all your travel needs in Tirupati.",
+  keywords: ["Tirupati car rental", "vehicle fleet", "Swift Dzire", "Toyota Innova", "luxury bus rental"],
+  openGraph: {
+    title: "Our Vehicle Fleet | Tirumala Tirupathi Travels",
+    description:
+      "Explore our premium fleet of vehicles including Swift Dzire, Toyota Innova, and luxury buses for all your travel needs in Tirupati.",
+  },
+}
 
 export default function VehiclesPage() {
   return (
