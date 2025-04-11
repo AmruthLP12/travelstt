@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Tirumala Tirupathi Travels - Comfortable & Affordable Travel",
   description: "Premium car and bus rentals in Tirupati for all your travel needs",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+  // Add the Google Site Verification tag here within the metadata object
+  verification: {
+    google: 'm3gcO3z77CpmDFtlEBa5Qk-g2yMOUvIFj34TKqbJMoU',
+  },
 }
 
 export default function RootLayout({
