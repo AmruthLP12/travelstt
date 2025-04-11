@@ -2,6 +2,19 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import TempleCard from "@/components/temple-card"
 import { temples } from "@/data/temples"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Sacred Temples",
+  description:
+    "Explore the divine temples of Tirupati including Sri Venkateswara Temple, Padmavathi Temple, and more with our specialized temple tour packages.",
+  keywords: ["Tirupati temples", "Sri Venkateswara Temple", "Tirumala temple", "temple tours", "Padmavathi Temple"],
+  openGraph: {
+    title: "Sacred Temples | Tirumala Tirupathi Travels",
+    description:
+      "Explore the divine temples of Tirupati including Sri Venkateswara Temple, Padmavathi Temple, and more with our specialized temple tour packages.",
+  },
+}
 
 export default function TemplesPage() {
   return (
