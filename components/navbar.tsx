@@ -90,12 +90,12 @@ export default function Navbar() {
           >
             <div className="flex justify-between items-center mb-8">
               <div className="flex items-center gap-2">
-                <div className="bg-gradient-to-r from-indigo-600 to-purple-700 p-1.5 rounded-lg">
+                <div className="p-1.5 rounded-lg">
                   <Image
-                    src="/placeholder.svg?height=30&width=30"
+                    src="/images/ttLogo.png"
                     alt="TT Travels Logo"
-                    width={30}
-                    height={30}
+                    width={50}
+                    height={50}
                     className="rounded-md"
                   />
                 </div>
